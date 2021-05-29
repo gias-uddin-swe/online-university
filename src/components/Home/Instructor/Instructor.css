@@ -1,0 +1,16 @@
+.instructor img {
+  width: 80%;
+  margin-top: 30px;
+  transition: 0.9s;
+}
+
+.instructor img:hover {
+  margin-top: 0px;
+  /* box-shadow: 10px 10px 20px gray; */
+  border-radius: 5px;
+}
+.instructor:hover {
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 5px;
+  padding: 10px;
+}

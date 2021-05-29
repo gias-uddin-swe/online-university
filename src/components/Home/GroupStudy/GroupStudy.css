@@ -1,0 +1,13 @@
+/* .onion-box {
+  border: 1px solid gray;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  padding-top: 100px;
+} */
+.onion-box:hover {
+  border: 1px solid rgb(236, 231, 231);
+}
+#onion-box {
+  width: 60%;
+}

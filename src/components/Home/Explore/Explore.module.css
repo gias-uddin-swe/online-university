@@ -1,0 +1,24 @@
+.box {
+  width: 330px;
+  height: 410px;
+  /* background-color: red; */
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 50px;
+  transition: 0.9s;
+}
+.box:hover {
+  margin-top: 0px;
+  box-shadow: 10px 10px 20px gray;
+  border: none;
+}
+.image {
+  width: 100%;
+}
+.image2 {
+  width: 95%;
+}
+.pTag {
+  text-align: justify;
+  padding: 10px;
+}
