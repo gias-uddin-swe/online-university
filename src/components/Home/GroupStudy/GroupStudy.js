@@ -6,8 +6,11 @@ import group3 from "../../../images/image/group-math.png";
 
 const GroupStudy = () => {
   return (
-    <div className="w-100 m-auto">
-      <h1>Group Study</h1>
+    <div className="w-100 m-auto ">
+      <h1 className="group-study">
+        <span style={{ fontSize: "200%", color: "green" }}>G</span>roup{" "}
+        <span style={{ fontSize: "200%", color: "magenta" }}>S</span>tudy
+      </h1>
       <div className="row w-100 m-auto">
         <div className="col-md-6 col-lg-4 col-sm-12">
           <div className="onion-box instructor">

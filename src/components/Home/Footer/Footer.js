@@ -4,7 +4,10 @@ import loginImage from "../../../images/image/undraw_authentication_fsn5.png";
 const Footer = () => {
   return (
     <div>
-      <h1 className="footer-title">Contact with us</h1>
+      <h1 className="footer-title ">
+        <span style={{ fontSize: "200%", color: "magenta" }}>C</span>ontact with{" "}
+        <span style={{ fontSize: "200%", color: "pink" }}>U</span>s
+      </h1>
       <div className="row">
         <div className="col-md-6">
           <img className="login-image" src={loginImage} alt="" />

@@ -7,6 +7,7 @@ import Login from "./components/Login/Login";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Profile from "./components/Profile/Profile";
 import PrivateRoute from "./components/Login/PrivateRoute";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <PrivateRoute path="/profile">
             <Profile></Profile>

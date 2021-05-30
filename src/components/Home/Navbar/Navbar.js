@@ -8,7 +8,11 @@ const Navbar = () => {
       <nav>
         <div className="row">
           <div className="col-md-3">
-            <h2>Online University</h2>
+            <h2 className="title">
+              <span style={{ fontSize: "200%", color: "magenta" }}>O</span>nline
+              Uni<span style={{ fontSize: "200%", color: "magenta" }}>V</span>
+              ersity
+            </h2>
           </div>
           <div className="col-md-9 menuItem mr-auto">
             <div className="items">
@@ -18,8 +22,15 @@ const Navbar = () => {
               <Link to="/login">
                 <li>Login</li>
               </Link>
-              <li>Contact us</li>
-              <li>Let's Chat</li>
+              <Link to="/about">
+                <li>About</li>
+              </Link>
+              <Link to="/contact">
+                <li>Contact us</li>
+              </Link>
+              <Link to="/chatPage">
+                <li>Let's Chat</li>
+              </Link>
               <Link to="/home">
                 <li>Home</li>
               </Link>

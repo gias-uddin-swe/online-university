@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { RemoveFromCart } from "../Redux/Actions/LoginActions";
 import "./Profile.css";
+import Footer from "./../Home/Footer/Footer";
 
 const Profile = (props) => {
   console.log(props);
@@ -26,6 +27,7 @@ const Profile = (props) => {
           </div>
         ))}
       </div>
+      <Footer></Footer>
     </div>
   );
 };

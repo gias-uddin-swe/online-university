@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAkoZg_HECP1PqldXN1urrw-Ny6ksdKQ8o",
-  authDomain: "fir-practice1-c5be1.firebaseapp.com",
-  projectId: "fir-practice1-c5be1",
-  storageBucket: "fir-practice1-c5be1.appspot.com",
-  messagingSenderId: "250347946862",
-  appId: "1:250347946862:web:3d006bd1d6e9a8a0b7f77f",
+  apiKey: "AIzaSyDNHG5U0vhB6to1D5KpMQrjtd70dWqI9yY",
+  authDomain: "online-universitee.firebaseapp.com",
+  projectId: "online-universitee",
+  storageBucket: "online-universitee.appspot.com",
+  messagingSenderId: "671875717865",
+  appId: "1:671875717865:web:1cc5395d397d0788576e78",
 };
 export default firebaseConfig;

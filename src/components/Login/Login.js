@@ -6,6 +6,8 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from "./firebase.config";
 import { useHistory, useLocation } from "react-router";
+import Footer2 from "../Home/Footer2/Footer2";
+import Navbar from "../Home/Navbar/Navbar";
 // import { addUserInfo } from "./../Redux/Actions/LoginActions";
 // import { connect } from "react-redux";
 
@@ -62,40 +64,44 @@ const Login = (props) => {
     sessionStorage.setItem("email", email);
   };
   return (
-    <div className="signIn-div row d-flex justify-content align-items-center ">
-      <div className="text-center google-div col-md-6">
-        <div className="input-div">
-          <input
-            className="login-input-field"
-            type="text"
-            placeholder="Email"
-          />
-          <br />
-          <input
-            className="login-input-field"
-            type="password"
-            name=""
-            placeholder="Password"
-            id=""
-          />
-          <br />
-          <button className="login-button">Login</button>
+    <div>
+      <Navbar></Navbar>
+      <div className="signIn-div row d-flex justify-content align-items-center ">
+        <div className="text-center google-div col-md-6">
+          <div className="input-div">
+            <input
+              className="login-input-field"
+              type="text"
+              placeholder="Email"
+            />
+            <br />
+            <input
+              className="login-input-field"
+              type="password"
+              name=""
+              placeholder="Password"
+              id=""
+            />
+            <br />
+            <button className="login-button">Login</button>
+          </div>
+          <button onClick={handleSignIn} className="btn login-btn google-btn">
+            <img
+              className="mr-4"
+              style={{ width: "30px" }}
+              src={googleImage}
+              alt=""
+            />
+            Continue with Google
+          </button>
         </div>
-        <button onClick={handleSignIn} className="btn login-btn google-btn">
-          <img
-            className="mr-4"
-            style={{ width: "30px" }}
-            src={googleImage}
-            alt=""
-          />
-          Continue with Google
-        </button>
-      </div>
-      <div className="col-md-6">
-        <div className="loginPage-img">
-          <img src={loginPage} alt="" />
+        <div className="col-md-6">
+          <div className="loginPage-img">
+            <img src={loginPage} alt="" />
+          </div>
         </div>
       </div>
+      <Footer2></Footer2>
     </div>
   );
 };

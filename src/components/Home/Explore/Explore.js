@@ -7,10 +7,10 @@ import explore4 from "../../../images/image/explore4.png";
 
 const Explore = () => {
   return (
-    <div className="text-center">
-      <h1>Explore your Knowledge in your field</h1>
+    <div className="text-center mt-5">
+      <h1><span style={{ fontSize: "200%", color: "pink" }}>E</span>xplore your <span style={{ fontSize: "200%", color: "magenta" }}>K</span>nowledge in your field</h1>
       <div className="row w-75 m-auto d-flex align-items-center justify-content-center">
-        <div className="col-md-6 col-sm-12 col-lg-4 p-5">
+        <div className="col-md-12 col-sm-12 col-lg-4 p-5">
           <div className={styles.box}>
             <img className={styles.image} src={explore1} alt="" />
             <p className={styles.pTag}>
@@ -22,7 +22,7 @@ const Explore = () => {
             <button className="btn btn-info mt-1">Explore</button>
           </div>
         </div>
-        <div className="col-md-6 colsm-12 col-lg-4 p-5">
+        <div className="col-md-12 colsm-12 col-lg-4 p-5">
           <div className={styles.box}>
             <img className={styles.image2} src={explore2} alt="" />
             <p className={styles.pTag}>
@@ -34,7 +34,7 @@ const Explore = () => {
             <button className="btn btn-info ">Explore</button>
           </div>
         </div>
-        <div className="col-md-6 colsm-12 col-lg-4 p-5">
+        <div className="col-md-12 colsm-12 col-lg-4 p-5">
           <div className={styles.box}>
             <img className={styles.image} src={explore4} alt="" />
             <p className={styles.pTag}>

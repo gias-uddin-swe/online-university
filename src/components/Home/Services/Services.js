@@ -9,8 +9,11 @@ const Services = (props) => {
   const { courses, addToCart } = props;
 
   return (
-    <div className="w-100 mb-5">
-      <h1>What We Provide !</h1>
+    <div className="w-100 mb-5 mt-5">
+      <h1>
+        What <span style={{ fontSize: "200%", color: "magenta" }}>W</span>e
+        Provide !
+      </h1>
       <div className="row course-main d-flex align-items-center justify-content-center w-75 m-auto">
         {courses.map((pd) => (
           <div className="col-md-12 col-lg-4 col-sm-12 ">
