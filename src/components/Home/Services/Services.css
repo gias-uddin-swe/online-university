@@ -1,0 +1,20 @@
+.course-box {
+  width: 330px;
+  height: 380px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 50px;
+  transition: 0.9s;
+}
+.course-box img {
+  width: 330px;
+  height: 200px;
+  padding: 5px;
+}
+.course-box:hover {
+  margin-top: 0px;
+}
+/* .course-main {
+  width: 100%;
+  margin: auto;
+} */
