@@ -2,7 +2,7 @@
 
 Check our Onlinve University Platform Learn toghether [Live site Link](https://online-universitee.web.app/).
 
-This Online University based on Redux [Check my redux in thsi APP](https://github.com/gias-uddin-swe/online-university/tree/main/src/components/Redux).
+This Online University based on Redux [Check Redux code for this APP](https://github.com/gias-uddin-swe/online-university/tree/main/src/components/Redux).
 
 ## Features
 
